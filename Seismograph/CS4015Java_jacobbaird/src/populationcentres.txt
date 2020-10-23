@@ -1,0 +1,18 @@
+co;Canada;.;.;.;.
+re;Atlantic Canada;.;.;.;Canada
+st;New Brunswick;.;.;.;Atlantic Canada
+ci;Fredericton;58220;45.958998;-66.645330;New Brunswick
+ci;Saint John;67575;45.272121;-66.063991;New Brunswick
+ci;Moncton;71890;46.087085;-64.778409;New Brunswick
+re;Eastern Canada;.;.;.;Canada
+st;Quebec;.;.;.;Eastern Canada
+ci;Montreal;.;.;.;Quebec
+ne;Anjou;41928;45.3624;-73.3320;Montreal
+ne;Lachine;44489;45.2625;-73.4220;Montreal
+co;United States;.;.;.;.
+re;New England;.;.;.;United States
+st;Vermont;.;.;.;New England
+ct;Orleans;27231;44.5639;-72.1216;Vermont
+ct;Rutland;59310;43.3632;-72.5847;Vermont
+co;Republic of Singapore;.;.;.;.
+ci;Singapore;5638700;1.17;103.50;Republic of Singapore

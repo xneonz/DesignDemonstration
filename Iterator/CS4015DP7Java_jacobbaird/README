@@ -1,0 +1,10 @@
+This program allows the user to generate a random binary tree of depth n and traverse it iteratively in prefix, postfix and infix orders.
+
+This program implements the composite and iterator patterns.
+
+The composite pattern is implemented by the BinaryNode and ConcreteBinaryNode classes. The BinaryNode is composed of multiple BinaryNode objects.
+The ConcreteBinaryNode is a subclass of the BinaryNode class and is thus composed itself of BinaryNode objects.
+
+The iterator pattern is implemented by the BinaryIterator abstract class and its implementations: PrefixBinaryIterator, InfixBinaryIterator and PostfixBinaryIterator.
+The BinaryIterator records its current state (i.e. the next iterable/integer to be returned by the next() method). Once an iterator returns an iterable/integer, it no
+longer stores that iterable/integer and once all iterables/integers have been returned, the next() method throws an IteratorException, as nothing can be returned.

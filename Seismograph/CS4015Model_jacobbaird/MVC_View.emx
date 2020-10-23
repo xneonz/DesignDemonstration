@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.5-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_CYyrUk8HEemhKZdhWnvHfw" name="Model-View-Control Pattern">
+  <eAnnotations xmi:id="_CYyrU08HEemhKZdhWnvHfw" source="uml2.diagrams" references="_CYyrVE8HEemhKZdhWnvHfw">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_CYyrVE8HEemhKZdhWnvHfw" type="Freeform" name="Architectural Diagram">
+      <children xmi:type="notation:Shape" xmi:id="_-qBVIFrbEemlq_vo9o5irw" type="roundRectangle" fontName="Cantarell" fontHeight="8" description="Seismic Data" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1" roundedBendpointsRadius="20">
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_-qBVIVrbEemlq_vo9o5irw" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_-qBVIlrbEemlq_vo9o5irw" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xmi:type="notation:TextStyle" xmi:id="_-qBVI1rbEemlq_vo9o5irw" textAlignment="Center"/>
+        <styles xmi:type="notation:LineTypeStyle" xmi:id="_-qBVJFrbEemlq_vo9o5irw"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-qBVJVrbEemlq_vo9o5irw" x="5706" y="951" width="5662" height="1852"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_A7_-0VrcEemlq_vo9o5irw" type="roundRectangle" fontName="Cantarell" fontHeight="8" description="SMS Client UI" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1" roundedBendpointsRadius="20">
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_A7_-0lrcEemlq_vo9o5irw" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_A7_-01rcEemlq_vo9o5irw" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xmi:type="notation:TextStyle" xmi:id="_A7_-1FrcEemlq_vo9o5irw" textAlignment="Center"/>
+        <styles xmi:type="notation:LineTypeStyle" xmi:id="_A7_-1VrcEemlq_vo9o5irw"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A7_-1lrcEemlq_vo9o5irw" x="1268" y="4438" width="5662" height="1852"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_K-8qcVrcEemlq_vo9o5irw" type="roundRectangle" fontName="Cantarell" fontHeight="8" description="SMS Client Controller" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1" roundedBendpointsRadius="20">
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_K-8qclrcEemlq_vo9o5irw" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_K-8qc1rcEemlq_vo9o5irw" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xmi:type="notation:TextStyle" xmi:id="_K-8qdFrcEemlq_vo9o5irw" textAlignment="Center"/>
+        <styles xmi:type="notation:LineTypeStyle" xmi:id="_K-8qdVrcEemlq_vo9o5irw"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K-8qdlrcEemlq_vo9o5irw" x="10144" y="4438" width="5662" height="1852"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_f5ubQFrcEemlq_vo9o5irw" type="rectangle" fontName="Cantarell" fontHeight="8" description="Renders" fillColor="13956346" transparency="100" lineColor="16777215" lineWidth="1">
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_f5vCUFrcEemlq_vo9o5irw" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_f5vCUVrcEemlq_vo9o5irw" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xmi:type="notation:TextStyle" xmi:id="_f5ubQVrcEemlq_vo9o5irw" textAlignment="Center"/>
+        <styles xmi:type="notation:LineTypeStyle" xmi:id="_f5ubQlrcEemlq_vo9o5irw"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f5ubQ1rcEemlq_vo9o5irw" x="6974" y="5072" width="3174" height="581"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_nuMdIVrcEemlq_vo9o5irw" type="rectangle" fontName="Cantarell" fontHeight="8" description="Manipulates" fillColor="13956346" transparency="100" lineColor="16777215" lineWidth="1">
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_nuMdIlrcEemlq_vo9o5irw" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_nuMdI1rcEemlq_vo9o5irw" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xmi:type="notation:TextStyle" xmi:id="_nuMdJFrcEemlq_vo9o5irw" textAlignment="Center"/>
+        <styles xmi:type="notation:LineTypeStyle" xmi:id="_nuMdJVrcEemlq_vo9o5irw"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nuMdJlrcEemlq_vo9o5irw" x="10144" y="2853" width="3174" height="581"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uHbQEVrcEemlq_vo9o5irw" type="rectangle" fontName="Cantarell" fontHeight="8" description="Updates" fillColor="13956346" transparency="100" lineColor="16777215" lineWidth="1">
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_uHbQElrcEemlq_vo9o5irw" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_uHbQE1rcEemlq_vo9o5irw" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xmi:type="notation:TextStyle" xmi:id="_uHbQFFrcEemlq_vo9o5irw" textAlignment="Center"/>
+        <styles xmi:type="notation:LineTypeStyle" xmi:id="_uHbQFVrcEemlq_vo9o5irw"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uHbQFlrcEemlq_vo9o5irw" x="4438" y="2853" width="3174" height="581"/>
+      </children>
+      <edges xmi:type="notation:Connector" xmi:id="_PJjpsFrcEemlq_vo9o5irw" type="line" source="_-qBVIFrbEemlq_vo9o5irw" target="_A7_-0VrcEemlq_vo9o5irw" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1">
+        <styles xmi:type="notation:ArrowStyle" xmi:id="_PJjpsVrcEemlq_vo9o5irw" arrowTarget="OpenArrow"/>
+        <styles xmi:type="notation:LineTypeStyle" xmi:id="_PJjpslrcEemlq_vo9o5irw"/>
+        <element xsi:nil="true"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PJjps1rcEemlq_vo9o5irw" points="[-48, 35, 94, -69]$[-141, 97, 1, -7]"/>
+        <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PJmtAFrcEemlq_vo9o5irw" id="(0.6229247615683504,0.10529157667386609)"/>
+      </edges>
+      <edges xmi:type="notation:Connector" xmi:id="_Teu6MFrcEemlq_vo9o5irw" type="line" source="_-qBVIFrbEemlq_vo9o5irw" target="_K-8qcVrcEemlq_vo9o5irw" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1">
+        <styles xmi:type="notation:ArrowStyle" xmi:id="_Teu6MVrcEemlq_vo9o5irw" arrowSource="OpenArrow"/>
+        <styles xmi:type="notation:LineTypeStyle" xmi:id="_Teu6MlrcEemlq_vo9o5irw"/>
+        <element xsi:nil="true"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Teu6M1rcEemlq_vo9o5irw" points="[11, 13, -88, -97]$[58, 75, -41, -35]"/>
+        <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TexWcFrcEemlq_vo9o5irw" id="(0.8251501236312258,0.816414686825054)"/>
+      </edges>
+      <edges xmi:type="notation:Connector" xmi:id="_YtEAQFrcEemlq_vo9o5irw" type="line" source="_A7_-0VrcEemlq_vo9o5irw" target="_K-8qcVrcEemlq_vo9o5irw" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1">
+        <styles xmi:type="notation:ArrowStyle" xmi:id="_YtEAQVrcEemlq_vo9o5irw" arrowTarget="OpenArrow"/>
+        <styles xmi:type="notation:LineTypeStyle" xmi:id="_YtEAQlrcEemlq_vo9o5irw"/>
+        <element xsi:nil="true"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YtEAQ1rcEemlq_vo9o5irw" points="[29, 9, -160, 0]$[151, 16, -38, 7]"/>
+        <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YtF1cFrcEemlq_vo9o5irw" id="(0.865948428117273,0.5766738660907127)"/>
+        <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YtF1cVrcEemlq_vo9o5irw" id="(0.18156128576474745,0.6911447084233261)"/>
+      </edges>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:id="_CYyrVU8HEemhKZdhWnvHfw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <profileApplication xmi:id="_CYyrVk8HEemhKZdhWnvHfw">
+    <eAnnotations xmi:id="_CYyrV08HEemhKZdhWnvHfw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_CYyrWE8HEemhKZdhWnvHfw">
+    <eAnnotations xmi:id="_CYyrWU8HEemhKZdhWnvHfw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_CYyrWk8HEemhKZdhWnvHfw">
+    <eAnnotations xmi:id="_CYyrW08HEemhKZdhWnvHfw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>

@@ -1,0 +1,2 @@
+This repository containts sample Java source code and UML designs demonstrating various design patterns covered in Design Patterns: Elements of Reusable Object-Oriented Software, by Erich
+Gamma, Richard Helm, Ralph Johnson and John Vlissides.

@@ -1,0 +1,23 @@
+This program allows the user to view a randomly generated maze
+
+The user may view the maze either as ASCII characters, or as an image
+
+Maze components are represented by the following ASCII characters:
+	Wall:	'#'
+	Space:	' '
+	Door:	'E'
+	
+Images of each component were drawn in GIMP 2.6 and are stored in the Java project folder as .png files
+
+The program implements a flyweight and facade pattern
+
+The flyweight is implemented by 5 classes:
+	MazeTile - Abstract class containing char, BufferedImage and int, 
+		representing ASCII representation, image representation and key, respectively,
+		along with getter methods for these variables
+	MazeWall, MazeSpace and MazeDoor - Concrete implementations of MazeTile class containing constructor
+		which sets values of ASCII representation, image representation and key of parent class
+	MazeFactory - Contains array of each MazeTile implementation and getter method for each object based on key
+	
+The facade is implemented by a single class:
+	MazeFacade - Provides an interface to methods of the FlyWeight classes

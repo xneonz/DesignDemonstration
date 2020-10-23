@@ -1,0 +1,7 @@
+This program implements an arithmetic expression parser and evaluator
+
+This program is build on a hybrid composite/decorator architecture
+
+The composite architecture is implemented by the ArithmeticNumberDecorator and ArithmeticOperatorDecorator classes extending the ArithmeticNode class
+
+The decorator architecture is implemented by the QuotedArithmeticOperator, QuotedArithmeticNumber, UnquotedArithmeticOperator and UnquotedArithmeticNumber classes implementing their respective decorator classes

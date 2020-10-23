@@ -1,0 +1,19 @@
+This program allows the user to create, visualize and evaluate a binary tree representing an arithmetic expression.
+
+Calling G <n> generates a random binary tree using BinaryTreeBuilder. The resulting tree is not necessarily balanced. Leaf nodes are numeric values, whereas all other nodes are operators.
+
+Calling E evaluates the tree using inorder traversal and prints the result. Resulting values are doubles. If a divide-by-zero exception occurs, "Undefined!" is printed.
+
+Calling V prints each node of the tree using inorder traversal. A leaf node is simply represented by its value, whereas all other nodes are represented by one of "+", "-", "*" or "-", depending on its operator type.
+
+This program implements both the visitor and the composite patterns.
+
+The visitor pattern is implemented by the abstract class BinaryTreeVisitor and its subclasses EvaluatorBinaryTreeVisitor and PrinterBinaryTreeVisitor.
+OperatorBinaryTreeNode and NumberBinaryTreeNode contain implementations of the acceptVisitor method. Each visitor visits the nodes of the tree using inorder traversal.
+As their names suggest, EvaluatorBinaryTreeVisitor is responsible for the evaluating the tree, and PrinterBinaryTreeVisitor is responsible for printing the tree.
+
+The composite pattern is implemented by the abstract class BinaryTreeNode and its sublasses OperatorBinaryTreeNode and NumberBinaryTreeNode. BinaryTreeNode may be an OperatorBinaryTreeNode,
+containing left and right BinaryTreeNodes, or it may be a NumberBinaryTreeNode, containing no children.
+
+An additional BinaryTreeBuilder class is added, which simply instantiates and populates the tree.
+The BinaryTreeNodeType enum restricts the program to using four arithmetic operators, ADD, SUBTRACT, MULTIPLY and DIVIDE.
